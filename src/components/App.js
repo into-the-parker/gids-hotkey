@@ -5,7 +5,7 @@ import MainContent from '../components/mainContent.js';
 
 function App() {
   return (
-    <div>
+    <div id="root">
       <TopNav/>
       <MainContent />
       <SideMenu />
