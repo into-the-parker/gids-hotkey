@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
+
 const styles = theme => ({
   root: {
     width: '150px',
@@ -25,7 +26,7 @@ class SideMenu extends Component {
     return (
       <div className={classes.root}>
          <div className={classes.menu}>
-          SideMenu
+          Sidebar
         </div>
       </div>
     )
